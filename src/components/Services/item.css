@@ -1,0 +1,60 @@
+.item .service-box {
+  padding: 3rem 1.5rem;
+  background: #26313c;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: all 0.5s ease 0.1s;
+  -o-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
+  z-index: 2;
+}
+.slick-center .item .service-box {
+  -webkit-background-size: 200% auto;
+  /* background-size: 200% auto; */
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#5192e1),
+    color-stop(51%, #23ced5),
+    to(#5192e1)
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    #5192e1 0%,
+    #23ced5 51%,
+    #5192e1 100%
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    #5192e1 0%,
+    #23ced5 51%,
+    #5192e1 100%
+  );
+  background-image: -o-linear-gradient(
+    left,
+    #5192e1 0%,
+    #23ced5 51%,
+    #5192e1 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    #5192e1 0%,
+    #23ced5 51%,
+    #5192e1 100%
+  );
+  padding: 4.5rem 1.5rem;
+  margin-top: -25px;
+}
+#services-slider .service-box > span {
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  display: inline-block;
+}
+#services-slider .service-box h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
